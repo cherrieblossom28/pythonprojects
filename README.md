@@ -1,3 +1,3 @@
-# pythonprojects
-#########Following files contain mini projects in Python
-########################################################
+# Python Projects
+#######################Mini projects in Python#######################
+#####################################################################
