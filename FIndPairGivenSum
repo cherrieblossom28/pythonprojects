@@ -1,0 +1,19 @@
+#exercises 
+#######INSTRUCTIONS########
+
+#In the given list, find the pair with the given sum
+#target = sum
+
+#######INSTRUCTIONS######## 
+
+arr = [6,4,2,3,8,10]
+target = 10
+totalnumlist = len(arr)
+
+for i in range(totalnumlist):
+    arr[i] = int(arr[i])
+    otherpair = target - arr[i]
+
+    for otherpair in arr:
+        if otherpair + arr[i] == target:
+            print(otherpair,arr[i], i)
